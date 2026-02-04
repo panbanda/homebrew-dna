@@ -1,26 +1,26 @@
 class Dna < Formula
   desc "Truth artifact management CLI with vector search for AI agents"
   homepage "https://github.com/panbanda/dna"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.0/dna_0.3.0_aarch64-apple-darwin.tar.gz"
-      sha256 "c611338006d5e69d7908731b99da594fe09eb9eb1207d0e4d296a5b6fcbb8936"
+      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.1/dna_0.3.1_aarch64-apple-darwin.tar.gz"
+      sha256 "6025e9b9e0c86b4047faf649b45a68925e782aadc54346a177e4b67580137b29"
     else
-      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.0/dna_0.3.0_x86_64-apple-darwin.tar.gz"
-      sha256 "066e7078165ad402fdfe4d25fb43003d4448d6744c6cad6d13f56fa9fe5447d5"
+      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.1/dna_0.3.1_x86_64-apple-darwin.tar.gz"
+      sha256 "c1fc06e2fb1e88546f19b63c974db5f34ed5d24736cd6140ce2997e69709489a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.0/dna_0.3.0_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6767a0009362f2e21919ccb46642faa512c30d53567bb4f0d150dee5fbff30f9"
+      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.1/dna_0.3.1_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "47ea8dbcb8f76ae4fc28e014f3bf9453a2963d6ae9d86f4eb0b68d0f2387c338"
     else
-      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.0/dna_0.3.0_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "13920719d2bc580f6cf21eb3e5450857d87bb756d41d1b5f93270076d17ebcae"
+      url "https://github.com/panbanda/dna/releases/download/dna-v0.3.1/dna_0.3.1_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "832f58b797558d131c39e9c36e1ca424ad5d5ef6009d02278e5f96b067deb1eb"
     end
   end
 
